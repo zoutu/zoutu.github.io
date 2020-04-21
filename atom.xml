@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://makelove521.gitee.io/blog/"/>
   <updated>2020-04-21T09:24:51.337Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://makelove521.gitee.io/blog/</id>
   
   <author>
     <name>Hine</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/04/21/hello-world/"/>
-    <id>http://yoursite.com/2020/04/21/hello-world/</id>
+    <link href="https://makelove521.gitee.io/blog/2020/04/21/hello-world/"/>
+    <id>https://makelove521.gitee.io/blog/2020/04/21/hello-world/</id>
     <published>2020-04-21T09:24:51.337Z</published>
     <updated>2020-04-21T09:24:51.337Z</updated>
     
