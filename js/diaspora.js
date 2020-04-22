@@ -390,7 +390,7 @@ $(function() {
 			}
 		})
 	};
-	var path = "/search.xml";
+	var path = "/blog/search.xml";
 	if(document.getElementById('local-search-input') !== null){
 		searchFunc(path, 'local-search-input', 'local-search-result');
 	}
