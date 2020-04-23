@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>试水的第一篇内容</title>
+    <url>/blog/2020/04/23/%E8%AF%95%E6%B0%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%86%85%E5%AE%B9/</url>
+    <content><![CDATA[<p>用码云来建立博客有个弊端就是多出了一个目录 ，没错就是blog这个根目录。和github、coding这些网站比较起来，就多了很多微调的步骤，比如我现在正在调整的搜索框的搜索功能。</p>
+]]></content>
+      <categories>
+        <category>部署笔记</category>
+      </categories>
+      <tags>
+        <tag>hexo博客</tag>
+        <tag>码云博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/blog/2020/04/21/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
