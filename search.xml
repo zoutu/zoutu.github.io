@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2020/04/21/hello-world/</url>
+    <content><![CDATA[<p>最终还是来到了github 选择做自己的blog，哎 国内的coding 和码云都不是很友好的呢</p>
+]]></content>
+      <categories>
+        <category>部署笔记</category>
+      </categories>
+      <tags>
+        <tag>hexo博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于Hexo博客直装缺少插件的问题</title>
     <url>/2020/04/23/Hexo%E5%8D%9A%E5%AE%A2%E7%9B%B4%E8%A3%85%E7%BC%BA%E5%B0%91%E6%8F%92%E4%BB%B6%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h4 id="这个问题是大多数萌新早期都会出现的一个问题！"><a href="#这个问题是大多数萌新早期都会出现的一个问题！" class="headerlink" title="这个问题是大多数萌新早期都会出现的一个问题！"></a>这个问题是大多数萌新早期都会出现的一个问题！<br></h4><h3 id="“我明明按照教程来的，为什么我的页面一直显示Cannot-GET-”"><a href="#“我明明按照教程来的，为什么我的页面一直显示Cannot-GET-”" class="headerlink" title="“我明明按照教程来的，为什么我的页面一直显示Cannot GET/” "></a><code>“我明明按照教程来的，为什么我的页面一直显示Cannot GET/”</code> <br></h3><p>emmm……我也是查了好久 <br></p>
@@ -18,14 +30,9 @@
       </tags>
   </entry>
   <entry>
-    <title>岁月能否溯流，回头你还在吗</title>
-    <url>/2020/04/24/%E5%B2%81%E6%9C%88%E8%83%BD%E5%90%A6%E6%BA%AF%E6%B5%81%EF%BC%8C%E5%9B%9E%E5%A4%B4%E4%BD%A0%E8%BF%98%E5%9C%A8%E5%90%97/</url>
-    <content><![CDATA[<p>记得当时还小，什么都不懂的年纪，说什么都是年少轻狂的话语。<br><a id="more"></a></p>
-<p><code>问何至如此？答不知所以。</code></p>
-<p>或许是青春的气息散发着迷人魅力，日子一天一天的过去，没有去考虑明天的烦恼，只想着开心过着今天。<br></p>
-<p>但是，我们不可能永远都在逃避，每一步走过的路都书写最后的结局，最后每一个脚印串成的线指引的就是我们选定的终点。<br></p>
-<p><code>当你刚刚迈步离它去远去，它便慌忙计算你的归期。</code></p>
-<p>谁曾想，最难做的事和应该做的事，往往是同一件事。<br><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">心灵深处，我们的许多想法过于拘泥、顽固，而不能畅所欲言地抒发。</span><br><span class="line">认真做好自己的每一件事，是我们现在需要做的，不要把机会留给明天，加油！</span><br></pre></td></tr></table></figure></p>
+    <title>“初音动态鼠标为什么网页不显示动态效果？”</title>
+    <url>/2020/04/30/%E2%80%9C%E5%88%9D%E9%9F%B3%E5%8A%A8%E6%80%81%E9%BC%A0%E6%A0%87%E4%B8%BA%E4%BB%80%E4%B9%88%E7%BD%91%E9%A1%B5%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%8A%A8%E6%80%81%E6%95%88%E6%9E%9C%EF%BC%9F%E2%80%9D/</url>
+    <content><![CDATA[<p></p><p><br>    <img src="https://gitee.com/MakeLove521/images/raw/master/img/Arrow.gif"><br>    <img src="https://gitee.com/MakeLove521/images/raw/master/img/cy.gif"><br>    <img src="https://gitee.com/MakeLove521/images/raw/master/img/shui.gif"><br>    <img src="https://gitee.com/MakeLove521/images/raw/master/img/wait.gif"><br></p><br>找了很多帖子都没有找到答案，本地的internet选项中的播放网页动画已经是打开的了。<p></p>
 ]]></content>
       <categories>
         <category>部署笔记</category>
@@ -52,9 +59,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/04/21/hello-world/</url>
-    <content><![CDATA[<p>最终还是来到了github 选择做自己的blog，哎 国内的coding 和码云都不是很友好的呢</p>
+    <title>岁月能否溯流，回头你还在吗</title>
+    <url>/2020/04/24/%E5%B2%81%E6%9C%88%E8%83%BD%E5%90%A6%E6%BA%AF%E6%B5%81%EF%BC%8C%E5%9B%9E%E5%A4%B4%E4%BD%A0%E8%BF%98%E5%9C%A8%E5%90%97/</url>
+    <content><![CDATA[<p>记得当时还小，什么都不懂的年纪，说什么都是年少轻狂的话语。<br><a id="more"></a></p>
+<p><code>问何至如此？答不知所以。</code></p>
+<p>或许是青春的气息散发着迷人魅力，日子一天一天的过去，没有去考虑明天的烦恼，只想着开心过着今天。<br></p>
+<p>但是，我们不可能永远都在逃避，每一步走过的路都书写最后的结局，最后每一个脚印串成的线指引的就是我们选定的终点。<br></p>
+<p><code>当你刚刚迈步离它去远去，它便慌忙计算你的归期。</code></p>
+<p>谁曾想，最难做的事和应该做的事，往往是同一件事。<br><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">心灵深处，我们的许多想法过于拘泥、顽固，而不能畅所欲言地抒发。</span><br><span class="line">认真做好自己的每一件事，是我们现在需要做的，不要把机会留给明天，加油！</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       <categories>
         <category>部署笔记</category>
