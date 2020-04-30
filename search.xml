@@ -42,14 +42,14 @@
       </tags>
   </entry>
   <entry>
-    <title>岁月能否溯流，回头你还在吗</title>
-    <url>/2020/04/24/%E5%B2%81%E6%9C%88%E8%83%BD%E5%90%A6%E6%BA%AF%E6%B5%81%EF%BC%8C%E5%9B%9E%E5%A4%B4%E4%BD%A0%E8%BF%98%E5%9C%A8%E5%90%97/</url>
-    <content><![CDATA[<p>记得当时还小，什么都不懂的年纪，说什么都是年少轻狂的话语。<br><a id="more"></a></p>
-<p><code>问何至如此？答不知所以。</code></p>
-<p>或许是青春的气息散发着迷人魅力，日子一天一天的过去，没有去考虑明天的烦恼，只想着开心过着今天。<br></p>
-<p>但是，我们不可能永远都在逃避，每一步走过的路都书写最后的结局，最后每一个脚印串成的线指引的就是我们选定的终点。<br></p>
-<p><code>当你刚刚迈步离它去远去，它便慌忙计算你的归期。</code></p>
-<p>谁曾想，最难做的事和应该做的事，往往是同一件事。<br><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">心灵深处，我们的许多想法过于拘泥、顽固，而不能畅所欲言地抒发。</span><br><span class="line">认真做好自己的每一件事，是我们现在需要做的，不要把机会留给明天，加油！</span><br></pre></td></tr></table></figure></p>
+    <title>试水的第一篇内容</title>
+    <url>/2020/04/23/%E8%AF%95%E6%B0%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%86%85%E5%AE%B9/</url>
+    <content><![CDATA[<p>用码云来建立博客有个弊端就是多出了一个目录 ，没错就是blog这个根目录。<br><br>和github、coding这些网站比较起来，就多了很多微调的步骤，比如调整搜索框的搜索功能。<br><br>对于hexo的兼容性并不是很好，因为很多路径都要改，也都不知道为什么要改<br></p>
+<h3 id="路径会错乱，特别是使用别人的主题"><a href="#路径会错乱，特别是使用别人的主题" class="headerlink" title="路径会错乱，特别是使用别人的主题"></a>路径会错乱，特别是使用别人的主题</h3><p>原来是这样的代码，本地搭建后hexo s访问正常</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"header"</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"image-logo"</span> <span class="attr">href</span>=<span class="string">"/"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-search switchsearch"</span> <span class="attr">href</span>=<span class="string">"/search/"</span> <span class="attr">title</span>=<span class="string">"搜索"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-menu switchmenu"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>但是在码云上就不行，因为多了blog路径，所以你得加上/blog 路径才正确。</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"header"</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"image-logo"</span> <span class="attr">href</span>=<span class="string">"/"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-search switchsearch"</span> <span class="attr">href</span>=<span class="string">"/blog/search/"</span> <span class="attr">title</span>=<span class="string">"搜索"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-menu switchmenu"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>不然你点击了搜索框按钮后就会提示 Cannot /search 就贼烦的那种。<br>而且 不单是一处报错，很多的路径要改 ，最后百般无奈，还是来到了github搭建（真香！）。</p>
 ]]></content>
       <categories>
         <category>部署笔记</category>
@@ -59,14 +59,14 @@
       </tags>
   </entry>
   <entry>
-    <title>试水的第一篇内容</title>
-    <url>/2020/04/23/%E8%AF%95%E6%B0%B4%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%86%85%E5%AE%B9/</url>
-    <content><![CDATA[<p>用码云来建立博客有个弊端就是多出了一个目录 ，没错就是blog这个根目录。<br><br>和github、coding这些网站比较起来，就多了很多微调的步骤，比如调整搜索框的搜索功能。<br><br>对于hexo的兼容性并不是很好，因为很多路径都要改，也都不知道为什么要改<br></p>
-<h3 id="路径会错乱，特别是使用别人的主题"><a href="#路径会错乱，特别是使用别人的主题" class="headerlink" title="路径会错乱，特别是使用别人的主题"></a>路径会错乱，特别是使用别人的主题</h3><p>原来是这样的代码，本地搭建后hexo s访问正常</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"header"</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"image-logo"</span> <span class="attr">href</span>=<span class="string">"/"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-search switchsearch"</span> <span class="attr">href</span>=<span class="string">"/search/"</span> <span class="attr">title</span>=<span class="string">"搜索"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-menu switchmenu"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>但是在码云上就不行，因为多了blog路径，所以你得加上/blog 路径才正确。</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"header"</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"image-logo"</span> <span class="attr">href</span>=<span class="string">"/"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-search switchsearch"</span> <span class="attr">href</span>=<span class="string">"/blog/search/"</span> <span class="attr">title</span>=<span class="string">"搜索"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">         <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"iconfont icon-menu switchmenu"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>不然你点击了搜索框按钮后就会提示 Cannot /search 就贼烦的那种。<br>而且 不单是一处报错，很多的路径要改 ，最后百般无奈，还是来到了github搭建（真香！）。</p>
+    <title>岁月能否溯流，回头你还在吗</title>
+    <url>/2020/04/24/%E5%B2%81%E6%9C%88%E8%83%BD%E5%90%A6%E6%BA%AF%E6%B5%81%EF%BC%8C%E5%9B%9E%E5%A4%B4%E4%BD%A0%E8%BF%98%E5%9C%A8%E5%90%97/</url>
+    <content><![CDATA[<p>记得当时还小，什么都不懂的年纪，说什么都是年少轻狂的话语。<br><a id="more"></a></p>
+<p><code>问何至如此？答不知所以。</code></p>
+<p>或许是青春的气息散发着迷人魅力，日子一天一天的过去，没有去考虑明天的烦恼，只想着开心过着今天。<br></p>
+<p>但是，我们不可能永远都在逃避，每一步走过的路都书写最后的结局，最后每一个脚印串成的线指引的就是我们选定的终点。<br></p>
+<p><code>当你刚刚迈步离它去远去，它便慌忙计算你的归期。</code></p>
+<p>谁曾想，最难做的事和应该做的事，往往是同一件事。<br><br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">心灵深处，我们的许多想法过于拘泥、顽固，而不能畅所欲言地抒发。</span><br><span class="line">认真做好自己的每一件事，是我们现在需要做的，不要把机会留给明天，加油！</span><br></pre></td></tr></table></figure></p>
 ]]></content>
       <categories>
         <category>部署笔记</category>
